@@ -20,7 +20,7 @@ if a == 1
     if futas <= 10.0
       print futas * 0.75
       sleep (60)
-    elsif futas <= 60.0 and futas > 11.0
+    elsif futas <= 60.0 and futas >= 11.0
       print futas
       sleep (60)
     else futas > 61.0
@@ -35,7 +35,7 @@ if a == 1
     if uszas <= 10.0
       print uszas * 0.75
       sleep (60)
-    elsif uszas <= 60.0 and uszas > 11.0
+    elsif uszas <= 60.0 and uszas >= 11.0
       print uszas
       sleep (60)
     else uszas > 61.0
@@ -50,7 +50,7 @@ if a == 1
     if foci <= 10.0
       print foci * 0.75
       sleep (60)
-    elsif foci <= 60.0 and foci > 11.0
+    elsif foci <= 60.0 and foci >= 11.0
       print foci
       sleep (60)
     else foci > 61.0
@@ -66,7 +66,7 @@ if a == 1
     if ksp <= 10.0
       print ksp * 0.75
       sleep (60)
-    elsif ksp <= 60.0 and ksp > 11.0
+    elsif ksp <= 60.0 and ksp >= 11.0
       print ksp
       sleep (60)
     else ksp > 61.0
@@ -82,7 +82,7 @@ if a == 1
     if viz <= 10.0
       print viz * 0.75
       sleep (60)
-    elsif viz <= 60.0 and viz > 11.0
+    elsif viz <= 60.0 and viz >= 11.0
       print viz
       sleep (60)
     else viz > 61.0
@@ -98,7 +98,7 @@ if a == 1
     if ex <= 10.0
       print ex * 0.75
       sleep (60)
-    elsif ex <= 60.0 and ex > 11.0
+    elsif ex <= 60.0 and ex >= 11.0
       print ex
       sleep (60)
     else ex > 61.0
@@ -114,7 +114,7 @@ if a == 1
     if ss <= 10.0
       print ss * 0.75
       sleep (60)
-    elsif ss <= 60.0 and ss > 11.0
+    elsif ss <= 60.0 and ss >= 11.0
       print ss
       sleep (60)
     else ss > 61.0
@@ -130,7 +130,7 @@ if a == 1
     if k <= 10.0
       print k * 0.75
       sleep (60)
-    elsif k <= 60.0 and k > 11.0
+    elsif k <= 60.0 and k >= 11.0
       print k
       sleep (60)
     else k > 61.0
@@ -146,7 +146,7 @@ if a == 1
     if ts <= 10.0
       print ts * 0.75
       sleep (60)
-    elsif ts <= 60.0 and ts > 11.0
+    elsif ts <= 60.0 and ts >= 11.0
       print ts
       sleep (60)
     else ts > 61.0
@@ -161,7 +161,7 @@ if a == 1
     if bicikli <= 10.0
       print bicikli * 0.75
       sleep (60)
-    elsif bicikli <= 60.0 and bicikli > 11.0
+    elsif bicikli <= 60.0 and bicikli >= 11.0
       print bicikli
       sleep (60)
     else bicikli > 61.0
@@ -178,7 +178,7 @@ if a == 2
     if web <= 10.0
       print web * 0.75
       sleep (60)
-    elsif web <= 60.0 and web > 11.0
+    elsif web <= 60.0 and web >= 11.0
       print web
       sleep (60)
     else web > 61.0
@@ -191,10 +191,10 @@ if a == 2
     print "Mennyi ideig csinálod (percben)?"
     #dg = 3D Grafika
     dg = Integer(gets.chomp)
-    if  <= 10.0
+    if dg <= 10.0
       print dg * 0.75
       sleep (60)
-    elsif dg <= 60.0 and dg > 11.0
+    elsif dg <= 60.0 and dg >= 11.0
       print dg
       sleep (60)
     else dg > 61.0
@@ -209,7 +209,7 @@ if a == 2
     if code <= 10.0
       print code * 0.75
       sleep (60)
-    elsif code <= 60.0 and code > 11.0
+    elsif code <= 60.0 and code >= 11.0
       print code
       sleep (60)
     else code > 61.0
@@ -226,7 +226,7 @@ if a == 3
     if zene <= 10.0
       print zene * 0.75
       sleep (60)
-    elsif zene <= 60.0 and zene > 11.0
+    elsif zene <= 60.0 and zene >= 11.0
       print zene
       sleep (60)
     else zene > 61.0
@@ -241,7 +241,7 @@ if a == 3
     if rajz <= 10.0
       print rajz * 0.75
       sleep (60)
-    elsif rajz <= 60.0 and rajz > 11.0
+    elsif rajz <= 60.0 and rajz >= 11.0
       print rajz
       sleep (60)
     else rajz > 61.0
@@ -257,7 +257,7 @@ if a == 3
     if photo <= 10.0
       print photo * 0.75
       sleep (60)
-    elsif photo <= 60.0 and photo > 11.0
+    elsif photo <= 60.0 and photo >= 11.0
       print photo
       sleep (60)
     else photo > 61.0
@@ -273,7 +273,7 @@ if a == 3
     if food <= 10.0
       print food * 0.75
       sleep (60)
-    elsif food <= 60.0 and food > 11.0
+    elsif food <= 60.0 and food >= 11.0
       print food
       sleep (60)
     else food > 61.0
@@ -288,7 +288,7 @@ if a == 3
     if tanc <= 10.0
       print tanc * 0.75
       sleep (60)
-    elsif tanc <= 60.0 and tanc > 11.0
+    elsif tanc <= 60.0 and tanc >= 11.0
       print tanc
       sleep (60)
     else tanc > 61.0
@@ -303,7 +303,7 @@ if a == 3
     if irod <= 10.0
       print irod * 0.75
       sleep (60)
-    elsif irod <= 60.0 and irod > 11.0
+    elsif irod <= 60.0 and irod >= 11.0
       print irod
       sleep (60)
     else irod > 61.0
@@ -320,7 +320,7 @@ if a == 4
     if kresz <= 10.0
       print kresz * 0.75
       sleep (60)
-    elsif kresz <= 60.0 and kresz > 11.0
+    elsif kresz <= 60.0 and kresz >= 11.0
       print kresz
       sleep (60)
     else kresz > 61.0
@@ -335,7 +335,7 @@ if a == 4
     if aid <= 10.0
       print aid * 0.75
       sleep (60)
-    elsif aid <= 60.0 and aid > 11.0
+    elsif aid <= 60.0 and aid >= 11.0
       print aid
       sleep (60)
     else aid > 61.0
@@ -351,7 +351,7 @@ if a == 4
     if nyf <= 10.0
       print nyf * 0.75
       sleep (60)
-    elsif nyf <= 60.0 and nyf > 11.0
+    elsif nyf <= 60.0 and nyf >= 11.0
       print nyf
       sleep (60)
     else nyf > 61.0
@@ -360,4 +360,3 @@ if a == 4
     end
   end
 end
-
